@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView output;
 
-    private int age = 10;
+    private int age = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
