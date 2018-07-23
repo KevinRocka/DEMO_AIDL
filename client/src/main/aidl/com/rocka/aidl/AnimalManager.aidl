@@ -8,8 +8,8 @@ import com.rocka.aidl.Animal;
 
 interface AnimalManager {
     /**
-     * 如果需要传参数，需要加上定向tag
-     */
+      * 除了基本数据类型，其他类型的参数都需要标记方向类型，in(输入)，out(输出)，inout(输入输出)
+      */
     void addAnimal(in Animal animal);
 
     List<Animal> getAnimals();
