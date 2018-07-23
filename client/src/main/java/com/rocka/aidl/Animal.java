@@ -59,11 +59,6 @@ public class Animal implements Parcelable {
         }
     };
 
-    public void readFromParcel(Parcel parcel) {
-        // 此处顺序需要与writeToParcel保持一致
-        name = parcel.readString();
-        age = parcel.readInt();
-    }
 
     @Override
     public String toString() {
